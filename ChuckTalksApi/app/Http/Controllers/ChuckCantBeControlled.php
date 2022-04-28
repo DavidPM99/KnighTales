@@ -21,6 +21,7 @@ class ChuckCantBeControlled extends Controller
             ->where('id', '=', $randID)
             ->get();
         //dd($randChuck);
+        //Si se consigue que c# lea solo la frase se cambia a json sin mas
         return response()->json($randChuck[0], 200);
     }
 }
