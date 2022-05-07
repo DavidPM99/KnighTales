@@ -1,57 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@font-face {
+    font-family: 'stonecross';
+    src: url('/fonts/st.ttf');
+    font-style: normal;
 }
-section
+
+#logo{
+    border-radius: 20px;
+}
+.bienvenida
 {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    font-family: 'stonecross', serif;
+    color: darkred;
+    margin-top: 5vh;
+    padding-left: 10vh;
     background: #fff;
 }
 
-header
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header.logo
-{
-    position: relative;
-    max-width: 30px;
+.carousel{
+    margin-top: 5vh;
+    padding-left: 10vh;
 }
 
-header ul
+.parrafazo
 {
-    position: relative;
-    display: flex;
+    padding-left: 10vh;
+    margin-top: 3vh;
 }
-header ul li
-{
-    list-style: none;
-}
-header ul li a
-{
-    display: inline-block;
-    color: rgb(194, 49, 5);
-    font-weight: 400;
-    margin-left: 40px;
-    text-decoration: none;
-}
+/*
 .content
 {
     position: relative;
@@ -167,4 +142,4 @@ header ul li a
     height: 100%;
     background:rgb(199, 107, 79);
     clip-path: circle(600px at right 800px);
-}
+}*/
