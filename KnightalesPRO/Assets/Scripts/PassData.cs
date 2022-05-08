@@ -291,6 +291,7 @@ public static class PassData
         docRef.SetAsync(user).ContinueWithOnMainThread(task => {
             Debug.Log("Data updated.");
         });
+        ReadTable();
     }
     public static void ReadTable()
     {

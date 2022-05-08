@@ -49,44 +49,51 @@ public class UpdateRanking : MonoBehaviour
             }
 
         }
-        if (!found)
+        if (name != "admin")
         {
-            
-            form.AddField("player_id", player_id);
-            form.AddField("name", name);
-            form.AddField("kills", kills);
-            UnityWebRequest web = UnityWebRequest.Post(write_url, form);
-
-
-            yield return web.SendWebRequest();
-
-            if (!web.isNetworkError && !web.isHttpError)
+            if (!found)
             {
-                Debug.Log(web.downloadHandler.text);
+
+                form.AddField("player_id", player_id);
+                form.AddField("name", name);
+                form.AddField("kills", kills);
+                UnityWebRequest web = UnityWebRequest.Post(write_url, form);
+
+
+                yield return web.SendWebRequest();
+
+                if (!web.isNetworkError && !web.isHttpError)
+                {
+                    Debug.Log(web.downloadHandler.text);
+                }
+                else
+                {
+                    Debug.Log("Error while reading...");
+                }
             }
             else
             {
-                Debug.Log("Error while reading...");
-            }
-        } else
-        {
-            form.AddField("field", "kills");
-            form.AddField("player_id", player_id);
-            form.AddField("value", kills);
-            UnityWebRequest web = UnityWebRequest.Post(update_url, form);
+                form.AddField("field", "kills");
+                form.AddField("player_id", player_id);
+                form.AddField("value", kills);
+                UnityWebRequest web = UnityWebRequest.Post(update_url, form);
 
 
-            yield return web.SendWebRequest();
+                yield return web.SendWebRequest();
 
-            if (!web.isNetworkError && !web.isHttpError)
-            {
-                Debug.Log(web.downloadHandler.text);
+                if (!web.isNetworkError && !web.isHttpError)
+                {
+                    Debug.Log(web.downloadHandler.text);
+                }
+                else
+                {
+                    Debug.Log("Error while reading...");
+                }
             }
-            else
-            {
-                Debug.Log("Error while reading...");
-            }
+
+
         }
+        
     }
 
 }
