@@ -12,6 +12,7 @@ public class CameraValues
         {"castillo", new List<Vector2>() { new Vector2(6.9f, 5.37f), new Vector2(-6.09f, -8.92f)} },
         {"cueva", new List<Vector2>() { new Vector2(-18.12f, -15.75f), new Vector2(-27.92f, -25.18f)} },
         {"tienda", new List<Vector2>() { new Vector2(17.5f, -8.98f), new Vector2(16.65f, -10.52f)} },
+        
     };
    
 

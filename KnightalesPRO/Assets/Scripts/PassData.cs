@@ -112,6 +112,11 @@ public static class PassData
     public static void CreateTable()
     {
         posicion = 1.274 + ";" + -0.933 + ";" + 0.04;
+        lifes = 10;
+        puntuacion = 0;
+        savedGame = false;
+        character = 0;
+        mapa = "castillo";
         db = FirebaseFirestore.DefaultInstance;
         
         DocumentReference docRef = db.Collection("users").Document(auth.CurrentUser.UserId);

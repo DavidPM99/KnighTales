@@ -12,7 +12,7 @@ public class PlayerMov : MonoBehaviour
     public GameObject ghost;
     public Transform posiciontumba;
     public AudioClip ghostAudio;
-    private Player player;
+    public Player player;
     Vector2 movement;
     public bool attacking = false;
 

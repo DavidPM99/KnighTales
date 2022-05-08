@@ -51,6 +51,7 @@ public class Enemy : MonoBehaviour
         if (lifes <= 0)
         {
             Destroy(gameObject);
+            player.player.puntuacion++;
         }
 
     }

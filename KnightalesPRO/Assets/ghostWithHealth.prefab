@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3533935062297163197, guid: 6612bf225f890cd409e39484e6dbde5d, type: 3}
       propertyPath: m_Name
-      value: ghostActive Variant
+      value: ghostWithHealth
       objectReference: {fileID: 0}
     - target: {fileID: 3533935062297163197, guid: 6612bf225f890cd409e39484e6dbde5d, type: 3}
       propertyPath: m_TagString
@@ -77,25 +77,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3533935062297163195, guid: 6612bf225f890cd409e39484e6dbde5d, type: 3}
   m_PrefabInstance: {fileID: 5005456357910993256}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &964061804260161182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8394141527273925845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4222d6c1ad5993948a9cd149b7c61e5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.2
-  stoppingDistance: 2
-  nearDistance: 1
-  startTimeBtwShots: 2
-  startTimeBtwDamage: 0
-  shot: {fileID: 7305478354894547593, guid: 30e36e9505dcc1c4f85c01b79c6d93f4, type: 3}
-  lifes: 10
 --- !u!50 &688904219
 Rigidbody2D:
   serializedVersion: 4
@@ -143,6 +124,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.21}
   m_EdgeRadius: 0
+--- !u!114 &964061804260161182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8394141527273925845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4222d6c1ad5993948a9cd149b7c61e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.2
+  stoppingDistance: 2
+  nearDistance: 1
+  startTimeBtwShots: 2
+  shot: {fileID: 377278265228162710, guid: 4fe93c402d0f47242afa34fc0c75d5cd, type: 3}
+  lifes: 10
 --- !u!1001 &5666353837502263231
 PrefabInstance:
   m_ObjectHideFlags: 0
