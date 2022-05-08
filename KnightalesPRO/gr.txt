@@ -1,0 +1,142 @@
+{
+	"sirroN_kcuhC": [
+	{"id": 1,
+	"frase": "¿Por qué se parece un cuervo a una mesa de trabajo? … porque Chuck Norris lo dice",
+	"accion": "cerrar"
+	},
+	{"id": 2,
+	"frase": "¿Qué es lo último que pasa por las mentes de las víctimas de Chuck Norris? Sus botas.",
+	"accion": "correr"
+	},
+	{"id": 3,
+	"frase": "¿Sabías que Stephen Hawking y Chuck iban a la misma clase, pero un día Stephen no quiso pasarle la pelota a Chuck cuando jugaban al fútbol y ¡error!",
+	"accion": "catastrophe"
+	},
+	{"id": 4,
+	"frase": "¿Sabías que Stevie Wonder veía perfectamente el día de antes de conocer a Chuck Norris?",
+	"accion": "oscuridad"
+	},
+	{"id": 5,
+	"frase": "A Chuck Norris le cae bien el Dr. House, por eso sólo lo dejó cojo.",
+	"accion": "reducir"
+	},
+	{"id": 6,
+	"frase": "Al PC de Chuck Norris no le entran virus ni troyanos. Él es su propio antivirus y firewall.",
+	"accion": "fallito"
+	},
+	{"id": 7,
+	"frase": "Alguien intentó decirle una vez a Chuck Norris que las patadas giratorias no son la mejor manera de dar una patada a alguien. Este hecho ha sido registrado por los historiadores como el peor error que nadie ha cometido jamás.",
+	"accion": "fallito"
+	},
+	{"id": 8,
+	"frase": "Antes de que naciera Chuck Norris el mar Muerto vivía.",
+	"accion": "recuperar"
+	},
+	{"id": 9,
+	"frase": "Chuck Norris dona sangre a la Cruz Roja frecuentemente, pero nunca la suya.",
+	"accion": "desangrado"
+	},
+	{"id": 10,
+	"frase": "Chuck Norris es la razón por la que Wally se esconde.",
+	"accion": "correr"
+	},
+	{"id": 11,
+	"frase": "Chuck Norris es la única persona que ha terminado una partida en el Tetris",
+	"accion": "ultrawin"
+	},
+	{"id": 12,
+	"frase": "Chuck Norris es la única persona que le gana a una pared jugando al frontón.",
+	"accion": "ultrawin"
+	},
+	{"id": 13,
+	"frase": "Chuck Norris escribe código que se optimiza solo",
+	"accion": "gamemaster"
+	},
+	{"id": 14,
+	"frase": "Chuck Norris ganó el premio nobel de la paz tras algunas amenazas.",
+	"accion": "pacifismo"
+	},
+	{"id": 15,
+	"frase": "Chuck Norris ganó una carrera de fórmula uno… empujando el coche.",
+	"accion": "correr"
+	},
+	{"id": 16,
+	"frase": "Chuck Norris ha estado en Marte, lo que explica por qué no hay signos de vida.",
+	"accion": "noNPC"
+	},
+	{"id": 16,
+	"frase": "Chuck Norris habla de sí mismo en cuarta persona.",
+	"accion": "DEVLand"
+	},
+	{"id": 17,
+	"frase": "Chuck Norris hace programas utilizando el Paint.",
+	"accion": "gamemaster"
+	},
+	{"id": 18,
+	"frase": "Chuck Norris lanzo una piedra al infinito, y se pasó",
+	"accion": "atkboost"
+	},
+	{"id": 19,
+	"frase": "Chuck Norris no duerme. Espera.",
+	"accion": "ciclo"
+	},
+	{"id": 20,
+	"frase": "Chuck Norris no juega a ser Dios. Jugar es para niños.",
+	"accion": "DEVLand"
+	},
+	{"id": 21,
+	"accion": "Chuck Norris conoce todos los decimales del número pi.",
+	"accion": "atkboost"
+	},
+	{"id": 22,
+	"frase": "Chuck Norris dejó sin cuello a Fernando Alonso.",
+	"accion": "atkboost"
+	},
+	{"id": 23,
+	"frase": "Chuck Norris en latín significa «muerte por patada giratoria».",
+	"accion": "catastrophe"
+	},
+	{"id": 24,
+	"frase": "Chuck Norris borró la papelera de reciclaje.",
+	"accion": "DEVLand"
+	},
+	{"id": 25,
+	"frase": "Chuck Norris le renta el Valhala a Odín.",
+	"accion": "ultrawin"
+	},
+	{"id": 26,
+	"frase": "Chuck Norris no necesita wifi, se comunica por telepatía.",
+	"accion": "cerrar"
+	},
+	{"id": 27,
+	"frase": "Chuck Norris no tiene fobias, las fobias tienen Chuck Norris",
+	"accion": "pacifismo"
+	},
+	{"id": 28,
+	"frase": "Chuck Norris no ve gente muerta, la hace.",
+	"accion": "atkboost"
+	},
+	{"id": 29,
+	"frase": "Chuck Norris nunca llega tarde. Es el tiempo el que se adelanta.",
+	"accion": "correr"
+	}
+	]
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

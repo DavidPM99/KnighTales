@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa5e157410969a4f89cbf996b34f913, type: 3}
+  m_Name: New Character Database
+  m_EditorClassIdentifier: 
+  character:
+  - characterName: espadachin
+    characterSprite: {fileID: 7152930139536384079, guid: 9946c207e329976489741f9f53f9e3fe, type: 3}
+    characterAnimation: {fileID: 7400000, guid: f7d5a34eeaa57e64a998d9926d621235, type: 2}
+  - characterName: mago
+    characterSprite: {fileID: 21300000, guid: 07d035a93f0230a4eb8f3c70b1b260e2, type: 3}
+    characterAnimation: {fileID: 0}
+  - characterName: arquero
+    characterSprite: {fileID: 21300000, guid: ee86005dd120b244985db1ed6637e8db, type: 3}
+    characterAnimation: {fileID: 0}
+  - characterName: valkiria
+    characterSprite: {fileID: 21300000, guid: 3b8ed40c439d3584eb31ce32b4ebb936, type: 3}
+    characterAnimation: {fileID: 0}

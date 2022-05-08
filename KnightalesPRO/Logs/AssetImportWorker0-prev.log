@@ -1,0 +1,1081 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.613; Version 2009; 64bit' Language: 'es' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Berni/Documents/GitHub/KnightalesFinal/KnightalesPRO
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61420
+Successfully changed project path to: C:/Users/Berni/Documents/GitHub/KnightalesFinal/KnightalesPRO
+C:/Users/Berni/Documents/GitHub/KnightalesFinal/KnightalesPRO
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 210.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Berni/Documents/GitHub/KnightalesFinal/KnightalesPRO/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002737 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 160.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027197 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EE752E6E70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75C20C80 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE704F4750 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75B23040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE756CE090 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE752E6E70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75E255D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70461010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.quicksearch.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75E255D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75D6A040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75E255D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75E255D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75E255D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74B88020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74BB6230 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7041BC30 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE704F4750 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75E255D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74B07230 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2UnityEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE753176A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74C15C40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74D80020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE753176A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74D80020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE753176A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7041FC40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74D91C30 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7023A020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7049B1E0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75400020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE704F4750 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75562020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74C69A30 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74D91C30 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74E83630 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74EE9010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74F3D010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74B1E440 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75C1FF90 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE756CE850 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7041FC40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74F3D010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74F16C20 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE708B2030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75B65970 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE755C0030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE755C7A40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74F65620 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74F65620 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE755C7A40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 159.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3017ms)
+		BeginReloadAssembly (364ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2503ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (784ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (865ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3917 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.4 MB.
+System memory in use after: 169.7 MB.
+
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 4269.
+Total: 7.687500 ms (FindLiveObjects: 0.736600 ms CreateObjectMapping: 0.546000 ms MarkObjects: 6.248200 ms  DeleteObjects: 0.154000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Camera 1/CameraValues.cs
+  artifactKey: Guid(7f3f0c32742af3345813692815e30c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera 1/CameraValues.cs using Guid(7f3f0c32742af3345813692815e30c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1d83cb80010337dadf82a6a055bfc9') in 0.055994 seconds 
+  Import took 0.071782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Camera
+  artifactKey: Guid(ea18c7ac593ada248b40650691f7c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera using Guid(ea18c7ac593ada248b40650691f7c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771a49409faaa31123a8f77d89590626') in 0.014280 seconds 
+  Import took 0.028552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.120076 seconds.
+  path: Assets/Camera 1/CameraMovement.cs
+  artifactKey: Guid(c0aa4b6e7fbfdfa46836be92d7a633e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera 1/CameraMovement.cs using Guid(c0aa4b6e7fbfdfa46836be92d7a633e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8dca67cf47f49ead4744a8c10e73a0') in 0.016803 seconds 
+  Import took 0.034650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.417317 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(81eb48ed77b56c24a94841f0e3247c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Projectile.cs using Guid(81eb48ed77b56c24a94841f0e3247c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c62b19a3179d74778104200a47d285') in 0.011289 seconds 
+  Import took 0.025454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.317802 seconds.
+  path: Assets/Scripts/PlayerMov.cs
+  artifactKey: Guid(d9ee36b3f6d01304f8d1d9edc94e8912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMov.cs using Guid(d9ee36b3f6d01304f8d1d9edc94e8912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2530ea53d94e39c136d5b3e7e44d4c7b') in 0.015068 seconds 
+  Import took 0.032511 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EE75E02010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A4AE7E0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75EB7390 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE701F6220 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DC33D80 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A889030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE702A2410 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75E02010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.quicksearch.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A5D9010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF9ED70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE747B6040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE747B6040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE747B6040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75491010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70266D00 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7887EC70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75EB7390 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A5D9010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75302090 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2UnityEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF9ED70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76164DE0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE752DD040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF9ED70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70461010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A311010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE756C3140 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE752DD040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7085B510 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E80E5D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE709F2010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75EB7390 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE79FA0020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A311010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE752DD040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE702B8030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE752DD040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE752DD040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7041BC30 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE6FFCB020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DC33D80 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE756C3140 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74AE0020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE747B6040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E95E040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E507BA0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77EF3630 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75EB7390 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A269020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE747B6040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75EB7390 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.492 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2493ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2153ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (759ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (781ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (522ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.6 MB.
+
+Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 4271.
+Total: 7.568400 ms (FindLiveObjects: 0.767200 ms CreateObjectMapping: 0.667200 ms MarkObjects: 5.975500 ms  DeleteObjects: 0.155700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.954829 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(5b05b41df92800e43bab480dd8136604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(5b05b41df92800e43bab480dd8136604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6eeea57d643a841612ad2299c05b104') in 0.017548 seconds 
+  Import took 0.028072 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033575 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EEA0B1B020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A4AF2F0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D7365F0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DAC1330 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DC331E0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7945E020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DB513A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0B1B020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.quicksearch.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E7132F0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE796D0010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D915040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D739200 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D915040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D33B480 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE79956030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75F00990 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D7365F0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AB3D490 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76A24010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2UnityEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE796D0010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75D29020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76A24010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D757AA0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74B88020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D922570 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF2D260 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D204020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E236030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E540C60 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE709F2010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70498220 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AA640F0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D922570 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76998010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE784D4010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7059D2A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76A24010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7482E050 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75DEFA50 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DC32C10 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF2DC60 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76463BA0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AB30450 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF91EF0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA058CB00 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76164DE0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75EB7390 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D204020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D915040 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D7365F0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.502 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2503ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2157ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (783ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (777ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.7 MB.
+
+Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 4273.
+Total: 7.348900 ms (FindLiveObjects: 0.869300 ms CreateObjectMapping: 0.535900 ms MarkObjects: 5.777600 ms  DeleteObjects: 0.164200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027782 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EE786C9F10 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A4AE430 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E50A1D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77EF5E90 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE788CF9B0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7945E020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE702A2410 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0B1B020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.quicksearch.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE78918080 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74A71350 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7809F020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70415020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7809F020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75491010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE79956030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E149010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7887EC70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7899E010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76A24010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2UnityEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D0F2620 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7880FC70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76A24010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D757AA0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A107020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AC00010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF2BA60 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AAEF650 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DFF10B0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0E1A5E0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE709F2010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7887EC70 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE79FA0020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D922570 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE787F0020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE78918080 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7059D2A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76A24010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E149010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE702D2070 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE788CF9B0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF2C460 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E75EF90 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AB30450 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DFF10B0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA058CCD0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D0F2620 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E149010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AAEF650 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7809F020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E149010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.52 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3018ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2614ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (917ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (955ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (256ms)
+				ProcessInitializeOnLoadAttributes (629ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.09 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.7 MB.
+
+Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 4275.
+Total: 10.057800 ms (FindLiveObjects: 1.175200 ms CreateObjectMapping: 0.781300 ms MarkObjects: 7.989400 ms  DeleteObjects: 0.108500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 481.587248 seconds.
+  path: Assets/Scripts/AuthManager.cs
+  artifactKey: Guid(84a7d31f4c5b65540804085bb3ef0927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AuthManager.cs using Guid(84a7d31f4c5b65540804085bb3ef0927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8273c8c05e70cbb79908a7d0bf57d0') in 0.021461 seconds 
+  Import took 0.034048 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025775 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EE786C5E90 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A4AF6A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75059030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77EE8D90 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DC32FF0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A269020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0A86820 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE786C5E90 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.quicksearch.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A6E3020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70837010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77FB7030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA007DC50 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77FB7030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AD6D020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70266D00 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE78268020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75059030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77FB7030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AAEF650 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2UnityEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70837010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76279020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76998010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DB4B010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AC3C550 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D922570 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE756C2F40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AAEF650 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75C177E0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E8144B0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE709F2010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7EF5BD50 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE79FA0020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D922570 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70846B00 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A5D9010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7059D2A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E20B030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0A66010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE4539C380 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DC32FF0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE756C2F40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DE523A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE78B5B030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF40470 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA058D7B0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70837010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7482E050 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AAEF650 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DB08860 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75059030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2972ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2601ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (896ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (1051ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (725ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.8 MB.
+
+Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 4277.
+Total: 6.868700 ms (FindLiveObjects: 0.640700 ms CreateObjectMapping: 0.538400 ms MarkObjects: 5.601900 ms  DeleteObjects: 0.085200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 659.061320 seconds.
+  path: Assets/Scripts/GetLocationWeather.cs
+  artifactKey: Guid(9d87943cf9ecd384790c0c3bf3459a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GetLocationWeather.cs using Guid(9d87943cf9ecd384790c0c3bf3459a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbfaeb922ee88e34430bf898a6f0aaf') in 0.028992 seconds 
+  Import took 0.043496 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EE7E2BA020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A4AF6A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75059030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE74A4C790 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA22BFB90 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A269020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0A86820 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E2BA020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.quicksearch.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A6E3020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70837010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77FB7030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7D0380C0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE77FB7030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75491010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DABFC40 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE78268020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75059030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE79598010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AAEF650 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2UnityEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70837010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75410030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE76958020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70837010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0B17010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E70B020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF2B060 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AACB840 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7520B5D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E382230 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE709F2010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AC73760 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE79FA0020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E70B020 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70846B00 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE751FB700 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7059D2A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AAEF650 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0A66010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7A8A7630 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA22BE450 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DF2B260 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DE523A0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EEA0072010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7520B5D0 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7E3CAD10 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE70837010 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7482E050 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7AACB840 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE7DB08860 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EE75059030 doesn't match image C:\Users\Berni\Documents\GitHub\KnightalesFinal\KnightalesPRO\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2381ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2061ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (708ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (752ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (495ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.82 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.8 MB.
+
+Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 4279.
+Total: 9.455400 ms (FindLiveObjects: 0.814500 ms CreateObjectMapping: 0.585900 ms MarkObjects: 7.918700 ms  DeleteObjects: 0.133700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

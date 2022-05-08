@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "647058239476",
+    "project_id": "knightales-847cd",
+    "storage_bucket": "knightales-847cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647058239476:android:5c3f1980e54495025f93a1",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647058239476-li2jt0begaqp40vfplabvvqk9rqjfd8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEfM1W74Dx40DHQDBS8TICWI2Fd6vQ5y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647058239476-li2jt0begaqp40vfplabvvqk9rqjfd8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
