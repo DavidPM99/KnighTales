@@ -10,6 +10,11 @@ public class Enemy : MonoBehaviour
     public float nearDistance;
     public float startTimeBtwShots;
     private float timeBtwShots;
+	
+	public GameObject indicatorMiss;
+    public GameObject indicatorHit;
+    public GameObject indicatorCrit;
+    public GameObject indicatorMCrit;
     
     [Header("References")]
     public GameObject shot;
@@ -56,16 +61,47 @@ public class Enemy : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Jugador")
+    IEnumerator lifeEnemy(Collision2D collisionTemp){
+        int number = Random.Range(0,4);
+        if (collisionTemp.gameObject.tag == "Jugador")
         {
             if (player.attacking)
             {
-                lifes--;
+                if (number == 0)
+                {
+                    Debug.Log("a");
+                    indicatorMiss.SetActive(true);
+                    yield return new WaitForSeconds(0.3f);
+                    indicatorMiss.SetActive(false);                 
+                }else if (number == 1)
+                {
+                    Debug.Log("b");
+                    indicatorHit.SetActive(true);
+                    lifes-=1;
+                    yield return new WaitForSeconds(0.3f);
+                    indicatorHit.SetActive(false);
+                }else if (number == 2)
+                {
+                    Debug.Log("c");
+                    lifes-=2;
+                    indicatorCrit.SetActive(true);
+                    yield return new WaitForSeconds(0.3f);
+                    indicatorCrit.SetActive(false);
+                }else if (number == 3)
+                {
+                    Debug.Log("d");              
+                    lifes-=3;
+                    indicatorMCrit.SetActive(true);
+                    yield return new WaitForSeconds(0.3f);
+                    indicatorMCrit.SetActive(false);
+                }
             }
         }
+    }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        StartCoroutine(lifeEnemy(collision));
     }
 
     private void Shoot()

@@ -1,7 +1,8 @@
-
+using UnityEngine.Networking;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMov : MonoBehaviour
 {
@@ -15,19 +16,49 @@ public class PlayerMov : MonoBehaviour
     public Player player;
     Vector2 movement;
     public bool attacking = false;
+	
+	public GameObject button;
 
+    public GameObject dialogbx;
+    public TMP_Text dialog;
+
+
+	public IEnumerator ChuckDialogs(string uri)
+    {
+        
+        using (UnityWebRequest request1 = UnityWebRequest.Get(uri))
+        {
+            yield return request1.SendWebRequest();
+
+            if (request1.result == UnityWebRequest.Result.ConnectionError)
+            {
+                Debug.Log(request1.error);
+            }
+            else
+            {
+                string result = request1.downloadHandler.text;
+                TMP_Text tm = dialog;
+                tm.text = result;
+            }
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        if (collision.gameObject.name == "Object_6")
+        if (collision.gameObject.name == "ChuckNorris")
         {
-            if (collision == true)
-                GetComponent<AudioSource>().Play();
-            Destroy(tumba);
-            ghost.SetActive(true);
+            if (collision == true){
+                button.SetActive(true);
+            }
         }
-       
+    }
+
+    private void OnTriggerExit2D(Collider2D collision){
+        if (collision.gameObject.name == "ChuckNorris")
+        {
+            button.SetActive(false);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -69,7 +100,17 @@ public class PlayerMov : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+		if(button.activeSelf){
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                StartCoroutine(ChuckDialogs("http://20.224.199.76/api/frases/rand"));
+                dialogbx.SetActive(true);
+            }
+        }else
+        {
+            dialogbx.SetActive(false);
+            StopCoroutine(ChuckDialogs("http://20.224.199.76/api/frases/rand"));
+        }
         
         if (Input.GetKeyDown(KeyCode.R)){
             moveSpeed += 25;

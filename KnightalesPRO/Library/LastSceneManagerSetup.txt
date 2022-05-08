@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Login.unity
+- path: C:/Users/David/Downloads/M7_UF2_Practica_BernatDavid/Capturas/KnightalesPRO/Assets/Scenes/Game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
