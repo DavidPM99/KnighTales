@@ -270,10 +270,6 @@ public class AuthManager : MonoBehaviour
         confirmLoginText.text = "";
     }
 
-    public void GoogleLogIn(string enlace)
-    {
-        Application.OpenURL(enlace);
-    }
     public void ChangeScene(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
