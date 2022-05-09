@@ -4,27 +4,34 @@
     font-style: normal;
 }
 
+.container{
+    max-width: 100%;
+    height: auto;
+}
+
 #logo{
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;    
 }
 .bienvenida
 {
     font-family: 'stonecross', serif;
     color: darkred;
     margin-top: 5vh;
-    padding-left: 10vh;
     background: #fff;
-}
-
-.carousel{
-    margin-top: 5vh;
-    padding-left: 10vh;
 }
 
 .parrafazo
 {
-    padding-left: 10vh;
     margin-top: 3vh;
+}
+
+.awa{
+    float: right;
+    position: relative;
+    max-width: 100%;
+    height: auto;   
 }
 /*
 .content
