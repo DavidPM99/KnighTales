@@ -19,9 +19,3 @@ MonoBehaviour:
   - characterName: mago
     characterSprite: {fileID: 9122030376272329116, guid: 6faf9b9044477d14f999d79d53da8ede, type: 3}
     characterAnimation: {fileID: 0}
-  - characterName: arquero
-    characterSprite: {fileID: 21300000, guid: ee86005dd120b244985db1ed6637e8db, type: 3}
-    characterAnimation: {fileID: 0}
-  - characterName: valkiria
-    characterSprite: {fileID: 21300000, guid: 3b8ed40c439d3584eb31ce32b4ebb936, type: 3}
-    characterAnimation: {fileID: 0}

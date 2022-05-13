@@ -9,11 +9,14 @@ public class GManager : MonoBehaviour
     private Player player;
     public GameObject deathPanel;
     public GameObject dayNightLight;
-
+    public GameObject knight;
+    public GameObject mage;
     public static bool isDay;
 
     public Animator animator;
+    public Animator mageanim;
     public static bool gamePaused = false;
+    
 
     private void Start()
     {
@@ -21,7 +24,20 @@ public class GManager : MonoBehaviour
         player = FindObjectOfType<Player>();
         deathPanel.SetActive(false);
         animator.enabled = true;
+        mageanim.enabled = true;    
         pause.SetActive(false);
+        if (PassData.getCharacter() == 0)
+        {
+            knight.SetActive(true);
+            mage.SetActive(false);
+
+        } else if (PassData.getCharacter() == 1)
+        {
+            knight.SetActive(false);
+            mage.SetActive(true);
+        }
+
+      
     }
 
     private void Update()
@@ -30,6 +46,7 @@ public class GManager : MonoBehaviour
         {
             Time.timeScale = 0;
             animator.enabled = false;
+            mageanim.enabled=false;
             deathPanel.SetActive(true);
         }
     }
@@ -38,6 +55,7 @@ public class GManager : MonoBehaviour
     {
         Time.timeScale = 0;
         animator.enabled = false;
+        mageanim.enabled= true;
         pause.SetActive(true);
 
     }
@@ -45,6 +63,7 @@ public class GManager : MonoBehaviour
     public void Reanudar() {
         pause.SetActive(false);
         animator.enabled = true;
+        mageanim.enabled= true;
         Time.timeScale = 1;
         
     }

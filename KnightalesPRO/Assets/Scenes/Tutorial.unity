@@ -2059,8 +2059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b05b41df92800e43bab480dd8136604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterDatabase: {fileID: 11400000, guid: 1440be0c8a20dc443bf82ac2386472e7, type: 2}
-  artworkSprite: {fileID: 1051312230}
   lifes: 3
   start_posicion: []
   end_posicion: 
@@ -2165,6 +2163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1351419518}
+  mageTarget: {fileID: 0}
   cameraOffset: {x: 0, y: 0, z: 0}
   speed: 2
   maxPosition: {x: 6.9, y: 5.37}
@@ -4401,6 +4400,10 @@ PrefabInstance:
       propertyPath: lifes
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 649906278, guid: 8e59847bb6a656b4cbd9966f5a41b52d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3233938231029566588, guid: 8e59847bb6a656b4cbd9966f5a41b52d, type: 3}
       propertyPath: m_Size.y
       value: 0.5858816
@@ -4960,6 +4963,8 @@ MonoBehaviour:
   pause: {fileID: 0}
   deathPanel: {fileID: 0}
   dayNightLight: {fileID: 456509434}
+  knight: {fileID: 1351419509}
+  mage: {fileID: 1351419509}
   animator: {fileID: 1351419512}
 --- !u!1 &2074519191
 GameObject:

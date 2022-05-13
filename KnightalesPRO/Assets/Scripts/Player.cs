@@ -7,8 +7,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public CharacterDatabase characterDatabase;
-    public SpriteRenderer artworkSprite;
+   // public CharacterDatabase characterDatabase;
+    //public SpriteRenderer artworkSprite;
     private int selectedOption = 0;
     public int lifes = 3;
     public float[] start_posicion;
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
         
 
         player.position = new Vector3(start_posicion[0], start_posicion[1], start_posicion[2]);
-        UpdateCharacter(selectedOption);
+        //UpdateCharacter(selectedOption);
     }
 
     void Update()
@@ -54,14 +54,14 @@ public class Player : MonoBehaviour
            PassData.UpdateTable(lifes, end_posicion, mapa, puntuacion, true);
         }
     }
-
+    /*
     private void UpdateCharacter(int selectedOption)
     {
         Character character = characterDatabase.getCharacter(selectedOption);
-        artworkSprite.sprite = character.characterSprite;
+        //artworkSprite.sprite = character.characterSprite;
       
     }
-
+    */
     private void Load()
     {
         selectedOption = PlayerPrefs.GetInt("selectedOption");

@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3233938231029566592
 Transform:
   m_ObjectHideFlags: 0
@@ -107,10 +107,14 @@ MonoBehaviour:
   posiciontumba: {fileID: 0}
   ghostAudio: {fileID: 0}
   player: {fileID: 0}
+  movement: {x: 0, y: 0}
   attacking: 0
   button: {fileID: 0}
   dialogbx: {fileID: 0}
   dialog: {fileID: 0}
+  shot: {fileID: 0}
+  startTimeBtwShots: 0
+  bulletSpawn: {fileID: 0}
 --- !u!50 &3233938231029566594
 Rigidbody2D:
   serializedVersion: 4
@@ -189,8 +193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b05b41df92800e43bab480dd8136604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterDatabase: {fileID: 11400000, guid: 1440be0c8a20dc443bf82ac2386472e7, type: 2}
-  artworkSprite: {fileID: 3233938231029566599}
   lifes: 3
   start_posicion: []
   end_posicion: 

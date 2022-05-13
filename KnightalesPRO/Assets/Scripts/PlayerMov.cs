@@ -14,7 +14,7 @@ public class PlayerMov : MonoBehaviour
     public Transform posiciontumba;
     public AudioClip ghostAudio;
     public Player player;
-    Vector2 movement;
+    public Vector2 movement;
     public bool attacking = false;
 	
 	public GameObject button;
@@ -26,6 +26,7 @@ public class PlayerMov : MonoBehaviour
     private float timeBtwShots;
     public float startTimeBtwShots;
 
+    public Transform bulletSpawn;
 
 	public IEnumerator ChuckDialogs(string uri)
     {
@@ -134,7 +135,7 @@ public class PlayerMov : MonoBehaviour
         if (Input.GetKeyDown("space")){
             animator.SetBool("Key", true);
             attacking = true;
-            if (rb.tag.Contains("magician"))
+            if (gameObject.name.Contains("magician"))
             {
                 Shoot();
             }
@@ -158,7 +159,8 @@ public class PlayerMov : MonoBehaviour
     }
     private void Shoot()
     {
-        if (timeBtwShots <= 0)
+        Instantiate(shot, transform.position, bulletSpawn.rotation);
+       /* if (timeBtwShots <= 0)
         {
             Instantiate(shot, transform.position, Quaternion.identity);
             timeBtwShots = startTimeBtwShots;
@@ -166,7 +168,7 @@ public class PlayerMov : MonoBehaviour
         else
         {
             timeBtwShots -= Time.deltaTime;
-        }
+        } */
     }
 }
 

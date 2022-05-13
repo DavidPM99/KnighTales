@@ -734,8 +734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b05b41df92800e43bab480dd8136604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterDatabase: {fileID: 11400000, guid: 1440be0c8a20dc443bf82ac2386472e7, type: 2}
-  artworkSprite: {fileID: 494470149}
   lifes: 3
   start_posicion: []
   end_posicion: 
@@ -2612,6 +2610,29 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   fill: {fileID: 972749814}
   player: {fileID: 1944407582}
+--- !u!1 &1048727454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1985993071558406643, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
+  m_PrefabInstance: {fileID: 3994388866197198423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1048727455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048727454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946c4b23d08192348b48fafdc54aee19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 
+--- !u!95 &1048727457 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3994388867308502387, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
+  m_PrefabInstance: {fileID: 3994388866197198423}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1121108595
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,7 +3349,10 @@ MonoBehaviour:
   pause: {fileID: 1625466907}
   deathPanel: {fileID: 896491146}
   dayNightLight: {fileID: 1121108595}
+  knight: {fileID: 649906277}
+  mage: {fileID: 1048727454}
   animator: {fileID: 649906279}
+  mageanim: {fileID: 1048727457}
 --- !u!114 &1634229656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4101,6 +4125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: magician
       objectReference: {fileID: 0}
+    - target: {fileID: 1985993071558406643, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1985993071558406644, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
       propertyPath: shot
       value: 
@@ -4122,12 +4150,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1310620837}
     - target: {fileID: 1985993071558406644, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
+      propertyPath: bulletSpawn
+      value: 
+      objectReference: {fileID: 1154326910966177767, guid: 0ec28b9b7185f2b43b438505e442fcd2, type: 3}
+    - target: {fileID: 1985993071558406644, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
       propertyPath: posiciontumba
       value: 
       objectReference: {fileID: 1636710644}
     - target: {fileID: 1985993071558406644, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
       propertyPath: startTimeBtwShots
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1985993071558406645, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
       propertyPath: m_RootOrder
@@ -4173,7 +4205,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3994388867308502384, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 434f2ca29cdfeff459920774251a6b7c, type: 3}
 --- !u!1001 &5666353838239586998
 PrefabInstance:
@@ -4191,9 +4224,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 964061804260161182, guid: 56428fda23ff9d143aca5f9f01f0910a, type: 3}
+      propertyPath: mage
+      value: 
+      objectReference: {fileID: 1048727454}
+    - target: {fileID: 964061804260161182, guid: 56428fda23ff9d143aca5f9f01f0910a, type: 3}
       propertyPath: shot
       value: 
       objectReference: {fileID: 377278265228162710, guid: 4fe93c402d0f47242afa34fc0c75d5cd, type: 3}
+    - target: {fileID: 964061804260161182, guid: 56428fda23ff9d143aca5f9f01f0910a, type: 3}
+      propertyPath: knight
+      value: 
+      objectReference: {fileID: 649906277}
     - target: {fileID: 964061804260161182, guid: 56428fda23ff9d143aca5f9f01f0910a, type: 3}
       propertyPath: healthBar
       value: 

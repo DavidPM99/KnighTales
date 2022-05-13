@@ -47,14 +47,15 @@ public class CharManager : MonoBehaviour
             
 
         } 
-
-        if (nameText.text != "espadachin") { 
+        /*
+        if (nameText.text != "espadachin" && nameText.text != "mago") { 
             startB.interactable = false;
 
         } else
         {
             startB.interactable = true;
         }
+        */
 
     }
 
@@ -89,9 +90,14 @@ public class CharManager : MonoBehaviour
         artworkSprite.sprite = character.characterSprite;
         anim = character.characterAnimation;
         nameText.text = character.characterName;
+        
         Save();
     }
 
+    public int characterId()
+    {
+        return selectedOption;
+    }
     private void Load()
     {
         selectedOption = PlayerPrefs.GetInt("selectedOption");

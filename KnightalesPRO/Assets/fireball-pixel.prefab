@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1154326910966177767}
   - component: {fileID: 4302678311168210072}
   - component: {fileID: 5857239228961256580}
+  - component: {fileID: 7542311175459119463}
+  - component: {fileID: 3861861212679198284}
   m_Layer: 0
   m_Name: fireball-pixel
   m_TagString: Untagged
@@ -26,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4370086270861054837}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.82327855, y: -1.0181845, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.038, y: -1.51, z: 0}
+  m_LocalScale: {x: 0.15121216, y: 0.17618805, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 19
   m_Sprite: {fileID: 21300000, guid: 98e3b1d888664084a987169a6d3d13c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -95,5 +97,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda78027d4153c444a7280847c9346b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  mago: {fileID: 0}
+  speed: 1
+  rb: {fileID: 7542311175459119463}
+--- !u!50 &7542311175459119463
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370086270861054837}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 59.2
+  m_AngularDrag: 997.86
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!58 &3861861212679198284
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370086270861054837}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.7069284, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.4881417

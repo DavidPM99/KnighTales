@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour
     public GameObject indicatorHit;
     public GameObject indicatorCrit;
     public GameObject indicatorMCrit;
+    public GameObject mage;
+    public GameObject knight;
     
     [Header("References")]
     public GameObject shot;
@@ -24,19 +26,35 @@ public class Enemy : MonoBehaviour
     public int lifes = 10;
     void Start()
     {
-        startTimeBtwShots = 4;
-       
-        ptransform = FindObjectOfType<Player>().transform;
         player = FindObjectOfType<PlayerMov>();
+        startTimeBtwShots = 4;
         timeBtwShots = startTimeBtwShots;
-        
+        if (mage.active == true)
+        {
+            ptransform = mage.GetComponent<PlayerMov>().transform;
+
+        }
+        else if (knight.active == true)
+        {
+            ptransform = knight.GetComponent<PlayerMov>().transform;
+
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (mage.active == true)
+        {
+            ptransform = mage.GetComponent<PlayerMov>().transform;
 
+        }
+        else if (knight.active == true)
+        {
+            ptransform = knight.GetComponent<PlayerMov>().transform;
 
+        }
         if (Vector2.Distance(transform.position, ptransform.position) < nearDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, ptransform.position, speed * Time.deltaTime);
@@ -60,12 +78,14 @@ public class Enemy : MonoBehaviour
         }
 
     }
-
+        
     IEnumerator lifeEnemy(Collision2D collisionTemp){
-        int number = Random.Range(0,4);
+
+        int number = Random.Range(0, 4);
+
         if (collisionTemp.gameObject.tag == "Jugador")
         {
-            if (player.attacking)
+            if (knight.GetComponent<PlayerMov>().attacking)
             {
                 if (number == 0)
                 {
@@ -97,12 +117,17 @@ public class Enemy : MonoBehaviour
                 }
             }
         }
+        
     }
+
+   
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
         StartCoroutine(lifeEnemy(collision));
     }
+
+   
 
     private void Shoot()
     {
