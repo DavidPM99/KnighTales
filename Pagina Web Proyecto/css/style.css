@@ -1,152 +1,117 @@
-@font-face {
-    font-family: 'stonecross';
-    src: url('/fonts/st.ttf');
-    font-style: normal;
+img{
+    width: 350px;
+    max-width: 120%;
+    padding: auto;
 }
-
 .container{
     max-width: 100%;
-    height: auto;
+}
+#imagen-aldea{
+    max-width: 150%;
+    padding: auto;
+}
+#imagen-aldea-2{
+    max-width: 150%;
+    padding-bottom: 20px;
+}
+#imagen-redes{
+    max-width: 20%;
+    padding: 20px;
+
 }
 
-#logo{
-    border-radius: 20px;
-    max-width: 100%;
-    height: auto;    
+#en{
+    max-width: 20%;
+    padding: 20px;
+
 }
-.bienvenida
-{
-    font-family: 'stonecross', serif;
-    color: darkred;
-    margin-top: 5vh;
+#es{
+    max-width: 20%;
+    padding: 20px;
+
+}
+
+#imagen-redes:hover{
+    max-width: 20%;
+    padding-left: 20px;
+    background-color:white ;
+
+}
+
+ #imagen-fantasma {
+    opacity : 100;
+    transition: opacity 2s;
+  }
+  
+  #imagen-fantasma:hover {
+    opacity:0; 
+  }
+
+  
+  #imagen-caballero:hover {
+    transform: translate(0,-20px);
+    -webkit-transform: translate(0,-20px);
+    -o-transform: translate(0,-20px); 
+    -moz-transform: translate(0,-20px);
+}
+ 
+#imagen-chuck:hover {
+    transform: translate(0,-20px);
+    -webkit-transform: translate(0,-20px);
+    -o-transform: translate(0,-20px); 
+    -moz-transform: translate(0,-20px);
+}
+ 
+#imagen-mago:hover {
+    transform: translate(0,-20px);
+    -webkit-transform: translate(0,-20px);
+    -o-transform: translate(0,-20px); 
+    -moz-transform: translate(0,-20px);
+}
+
+.es{
+    color:black;
+    padding-right: 10px;
+    padding-left: 50px;
+
+}
+.cat{
+    color:black;
+    padding-left: 10px;
+}
+
+.check{
+    position: relative;
+    width: 50px;
+}
+.check::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+.check::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
     background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+.check:checked::after{
+    left: 25px;
+    border: 2px solid yellow;
+}
+.check:checked::before{
+    background: red;
 }
 
-.parrafazo
-{
-    margin-top: 3vh;
-}
 
-.awa{
-    float: right;
-    position: relative;
-    max-width: 100%;
-    height: auto;   
-}
-/*
-.content
-{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.content .textBox
-{
-    position: relative;
-    max-width: 600px;
-}
-.content .textBox h2
-{
-    color: #333;
-    font-size: 4em;
-    line-height: 1.4em;
-    font-weight: 500;
-}
-.content .textBox h2 span
-{
-    color: rgb(194, 49, 5);
-    font-size: 1.2em;
-    font-weight: 900;
-}
-.content .textBox p
-{
-    color: rgb(194, 49, 5);
-}
-.content .textBox a
-{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background-color: rgb(194, 49, 5);
-    color: rgb(255, 255, 255);
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
 
-}
-.content .imgBox
-{
-    width: 600;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
-}
 
-.content .imgBox img
-{
-    max-width: 340px;
-}
-.thumb
-{
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translate(-50%);
-    display: flex;
-}
-.thumb li
-{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    cursor: pointer;
-}
-.thumb li:hover
-{
-    transform: translate(-15px);
-}
-.thumb li img
-{
-    max-width: 60px;
-}
-.sci
-{
-    position: absolute;
-    top: 50%;
-    right: 30px;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.sci li
-{
- list-style: none;
-}
-.sci li a
-{
-    display: inline-block;
-    margin: 5px 0;
-    transform: scale(0.6);
 
-}
-
-.sci li img
-{
-    max-width: 40px;
-}
-.circle
-{
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:rgb(199, 107, 79);
-    clip-path: circle(600px at right 800px);
-}*/
