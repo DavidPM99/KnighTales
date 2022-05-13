@@ -8,10 +8,13 @@ public class Projectile : MonoBehaviour
 
     private Transform ptransform;
     private Player player;
+
+    public Collision2D col;
     private Vector2 target;
     void Start()
     {
         player = FindObjectOfType<Player>();
+
         ptransform = GameObject.FindGameObjectWithTag("Jugador").transform;
 
         target = new Vector2(ptransform.position.x, ptransform.position.y);
@@ -34,6 +37,7 @@ public class Projectile : MonoBehaviour
         {
             player.lifes--;
             DestroyProjectile();
+
         }
     }
     void DestroyProjectile()

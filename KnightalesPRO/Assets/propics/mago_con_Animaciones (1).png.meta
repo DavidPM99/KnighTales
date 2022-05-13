@@ -1,0 +1,981 @@
+fileFormatVersion: 2
+guid: 6faf9b9044477d14f999d79d53da8ede
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9122030376272329116
+    second: mago_con_Animaciones (1)_0
+  - first:
+      213: -3126854050514182619
+    second: mago_con_Animaciones (1)_1
+  - first:
+      213: 5297227233207587443
+    second: mago_con_Animaciones (1)_2
+  - first:
+      213: 3006863819830300036
+    second: mago_con_Animaciones (1)_3
+  - first:
+      213: 68252734834687474
+    second: mago_con_Animaciones (1)_4
+  - first:
+      213: 6882775004892701170
+    second: mago_con_Animaciones (1)_5
+  - first:
+      213: -1161591828665955181
+    second: mago_con_Animaciones (1)_6
+  - first:
+      213: -3559001137910643253
+    second: mago_con_Animaciones (1)_7
+  - first:
+      213: 8889427244521496065
+    second: mago_con_Animaciones (1)_8
+  - first:
+      213: 1493688673485753756
+    second: mago_con_Animaciones (1)_9
+  - first:
+      213: 2632512267345308021
+    second: mago_con_Animaciones (1)_10
+  - first:
+      213: 7345904823107707009
+    second: mago_con_Animaciones (1)_11
+  - first:
+      213: 468011990333151412
+    second: mago_con_Animaciones (1)_12
+  - first:
+      213: -6657521105142916535
+    second: mago_con_Animaciones (1)_13
+  - first:
+      213: -2525296663984468826
+    second: mago_con_Animaciones (1)_14
+  - first:
+      213: 8194163554437433373
+    second: mago_con_Animaciones (1)_15
+  - first:
+      213: 8104509029370774017
+    second: mago_con_Animaciones (1)_16
+  - first:
+      213: -7154656916287697369
+    second: mago_con_Animaciones (1)_17
+  - first:
+      213: -6237253810079113567
+    second: mago_con_Animaciones (1)_18
+  - first:
+      213: 7613532567823903892
+    second: mago_con_Animaciones (1)_19
+  - first:
+      213: 6006034228208006889
+    second: mago_con_Animaciones (1)_20
+  - first:
+      213: -4557202070951141481
+    second: mago_con_Animaciones (1)_21
+  - first:
+      213: -5474982864040557289
+    second: mago_con_Animaciones (1)_22
+  - first:
+      213: 3461960929770823115
+    second: mago_con_Animaciones (1)_23
+  - first:
+      213: 2495758276343238800
+    second: mago_con_Animaciones (1)_24
+  - first:
+      213: 1895794433742123250
+    second: mago_con_Animaciones (1)_25
+  - first:
+      213: -6960415411917361742
+    second: mago_con_Animaciones (1)_26
+  - first:
+      213: 3073507321112998274
+    second: mago_con_Animaciones (1)_27
+  - first:
+      213: -1427904978428933928
+    second: mago_con_Animaciones (1)_28
+  - first:
+      213: -5948872377894442035
+    second: mago_con_Animaciones (1)_29
+  - first:
+      213: 6775586625483031431
+    second: mago_con_Animaciones (1)_30
+  - first:
+      213: -4026119240539493631
+    second: mago_con_Animaciones (1)_31
+  - first:
+      213: 7220577643401582726
+    second: mago_con_Animaciones (1)_32
+  - first:
+      213: 8340646572040373598
+    second: mago_con_Animaciones (1)_33
+  - first:
+      213: -4603656577090723941
+    second: mago_con_Animaciones (1)_34
+  - first:
+      213: 7283051999744581734
+    second: mago_con_Animaciones (1)_35
+  - first:
+      213: -1313105945468282171
+    second: mago_con_Animaciones (1)_36
+  - first:
+      213: 2040396754025288351
+    second: mago_con_Animaciones (1)_37
+  - first:
+      213: 1570827701856050285
+    second: mago_con_Animaciones (1)_38
+  - first:
+      213: -3708594331828244718
+    second: mago_con_Animaciones (1)_39
+  - first:
+      213: 3427159884357730223
+    second: mago_con_Animaciones (1)_40
+  - first:
+      213: 972277799104180763
+    second: mago_con_Animaciones (1)_41
+  - first:
+      213: -6315913372797858048
+    second: mago_con_Animaciones (1)_42
+  - first:
+      213: 1356393442490638264
+    second: mago_con_Animaciones (1)_43
+  - first:
+      213: -2600309379022903985
+    second: mago_con_Animaciones (1)_44
+  - first:
+      213: 2914738619352036783
+    second: mago_con_Animaciones (1)_45
+  - first:
+      213: -899870687991148989
+    second: mago_con_Animaciones (1)_46
+  - first:
+      213: 8011765676844677386
+    second: mago_con_Animaciones (1)_47
+  - first:
+      213: -3208304112071878307
+    second: mago_con_Animaciones (1)_48
+  - first:
+      213: 792699140844732730
+    second: mago_con_Animaciones (1)_49
+  - first:
+      213: 7119361614787803321
+    second: mago_con_Animaciones (1)_50
+  - first:
+      213: 5361092700858211167
+    second: mago_con_Animaciones (1)_51
+  - first:
+      213: -79244087447583052
+    second: mago_con_Animaciones (1)_52
+  - first:
+      213: 8610658542247035288
+    second: mago_con_Animaciones (1)_53
+  - first:
+      213: -3431053950984394114
+    second: mago_con_Animaciones (1)_54
+  - first:
+      213: -3394716993997935041
+    second: mago_con_Animaciones (1)_56
+  - first:
+      213: 5927933619782720914
+    second: mago_con_Animaciones (1)_58
+  - first:
+      213: 4090287898192512764
+    second: mago_con_Animaciones (1)_60
+  - first:
+      213: 126200137685273898
+    second: mago_con_Animaciones (1)_62
+  - first:
+      213: -3702838697228742508
+    second: mago_con_Animaciones (1)_64
+  - first:
+      213: 8054128457318023294
+    second: mago_con_Animaciones (1)_66
+  - first:
+      213: -6155276322943156883
+    second: mago_con_Animaciones (1)_68
+  - first:
+      213: -4219360251064566949
+    second: mago_con_Animaciones (1)_70
+  - first:
+      213: -5348810448850150395
+    second: mago_con_Animaciones (1)_72
+  - first:
+      213: -3525294988114918644
+    second: mago_con_Animaciones (1)_74
+  - first:
+      213: -5362706611934039680
+    second: mago_con_Animaciones (1)_76
+  - first:
+      213: 2948345609112441541
+    second: mago_con_Animaciones (1)_78
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99f800fb46f79e70800000000000000
+      internalID: 9122030376272329116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e5c9ecece2b94d0800000000000000
+      internalID: -3126854050514182619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3721dd94a18838940800000000000000
+      internalID: 5297227233207587443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d85fc86b68ab920800000000000000
+      internalID: 3006863819830300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a5a43f3dbbb93a0800000000000000
+      internalID: -6657521105142916535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac0abe401854fcd0800000000000000
+      internalID: -2525296663984468826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1802b5965487b170800000000000000
+      internalID: 8194163554437433373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102479ec500097070800000000000000
+      internalID: 8104509029370774017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0901ea2ede6b2a220800000000000000
+      internalID: 2495758276343238800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0bc5e3ef63f4a10800000000000000
+      internalID: 1895794433742123250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bde28b8f03a76f90800000000000000
+      internalID: -6960415411917361742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281b089df9a47aa20800000000000000
+      internalID: 3073507321112998274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660697dd439921560800000000000000
+      internalID: 7283051999744581734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad8e78919e6cde0800000000000000
+      internalID: -1313105945468282171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92998c8902f05c10800000000000000
+      internalID: 2040396754025288351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c1974e873bcc510800000000000000
+      internalID: 1570827701856050285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a097ef75f628f2f60800000000000000
+      internalID: 8011765676844677386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31cecf2bab300b00800000000000000
+      internalID: 792699140844732730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd79a386d666a40800000000000000
+      internalID: 5361092700858211167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89141dca2543f7770800000000000000
+      internalID: 8610658542247035288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e65c341ea83e0d0800000000000000
+      internalID: -3394716993997935041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d9e3b3830444250800000000000000
+      internalID: 5927933619782720914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf608d01c2f93c830800000000000000
+      internalID: 4090287898192512764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d06594b5a50c100800000000000000
+      internalID: 126200137685273898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4905c17c2dfdc9cc0800000000000000
+      internalID: -3702838697228742508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e704ec9c82306cf60800000000000000
+      internalID: 8054128457318023294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6db99cdbc0149aa0800000000000000
+      internalID: -6155276322943156883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bb4efe432d175c0800000000000000
+      internalID: -4219360251064566949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c93696c3535c5b0800000000000000
+      internalID: -5348810448850150395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0302f8d2e2a31fc0800000000000000
+      internalID: -3525294988114918644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0817801dfb6d395b0800000000000000
+      internalID: -5362706611934039680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mago_con_Animaciones (1)_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2da32e5b0aae820800000000000000
+      internalID: 2948345609112441541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

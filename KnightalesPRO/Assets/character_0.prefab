@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3233938231029566592
 Transform:
   m_ObjectHideFlags: 0
@@ -102,6 +102,15 @@ MonoBehaviour:
   moveSpeed: 222
   animator: {fileID: 3233938231029566595}
   rb: {fileID: 3233938231029566594}
+  tumba: {fileID: 0}
+  ghost: {fileID: 0}
+  posiciontumba: {fileID: 0}
+  ghostAudio: {fileID: 0}
+  player: {fileID: 0}
+  attacking: 0
+  button: {fileID: 0}
+  dialogbx: {fileID: 0}
+  dialog: {fileID: 0}
 --- !u!50 &3233938231029566594
 Rigidbody2D:
   serializedVersion: 4
@@ -182,3 +191,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterDatabase: {fileID: 11400000, guid: 1440be0c8a20dc443bf82ac2386472e7, type: 2}
   artworkSprite: {fileID: 3233938231029566599}
+  lifes: 3
+  start_posicion: []
+  end_posicion: 
+  puntuacion: 0
+  name: 
+  mapa: castillo

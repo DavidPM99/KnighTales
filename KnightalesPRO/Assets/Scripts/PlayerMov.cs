@@ -22,6 +22,10 @@ public class PlayerMov : MonoBehaviour
     public GameObject dialogbx;
     public TMP_Text dialog;
 
+    public GameObject shot;
+    private float timeBtwShots;
+    public float startTimeBtwShots;
+
 
 	public IEnumerator ChuckDialogs(string uri)
     {
@@ -130,6 +134,11 @@ public class PlayerMov : MonoBehaviour
         if (Input.GetKeyDown("space")){
             animator.SetBool("Key", true);
             attacking = true;
+            if (rb.tag.Contains("magician"))
+            {
+                Shoot();
+            }
+            
         }
 
         if (Input.GetKeyUp("space")){
@@ -147,5 +156,20 @@ public class PlayerMov : MonoBehaviour
     {
         rb.velocity = movement * moveSpeed * Time.fixedDeltaTime;
     }
-
+    private void Shoot()
+    {
+        if (timeBtwShots <= 0)
+        {
+            Instantiate(shot, transform.position, Quaternion.identity);
+            timeBtwShots = startTimeBtwShots;
+        }
+        else
+        {
+            timeBtwShots -= Time.deltaTime;
+        }
+    }
 }
+
+
+
+    
