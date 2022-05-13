@@ -231,7 +231,7 @@ public static class PassData
                     
                     panel.SetActive(false);
                     
-                    SceneManager.LoadScene(3);
+                    SceneManager.LoadScene(1);
                     
                 }
                 

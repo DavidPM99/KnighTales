@@ -83,7 +83,7 @@ public class ViewManager : MonoBehaviour
     }
     public void Back()
     {
-        ChangeScene(3);
+        ChangeScene(1);
     }
     public void Cancel()
     {

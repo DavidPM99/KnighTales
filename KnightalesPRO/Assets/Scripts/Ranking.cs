@@ -72,7 +72,7 @@ public class Ranking : MonoBehaviour
    
     public void Back()
     {
-        ChangeScene(3);
+        ChangeScene(1);
     }
     public void StartRead()
     {

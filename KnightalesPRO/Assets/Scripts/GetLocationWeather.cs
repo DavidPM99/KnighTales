@@ -61,6 +61,11 @@ public class GetLocationWeather : MonoBehaviour
                     {
                         glight.intensity = 0.27f;
                     }
+                    else
+                    {
+                        glight.color = Color.gray;
+                        glight.intensity = 0.60f;
+                    }
 
                     string mediaURL = "http://openweathermap.org/img/wn/"+ checkDay +"@2x.png";
                     UnityWebRequest imaqge = UnityWebRequestTexture.GetTexture(mediaURL);

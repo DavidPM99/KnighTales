@@ -74,7 +74,17 @@ public class Enemy : MonoBehaviour
         if (lifes <= 0)
         {
             Destroy(gameObject);
-            player.player.puntuacion++;
+            if (mage.active == true)
+            {
+                mage.GetComponent<Player>().puntuacion++;
+
+            }
+            else if (knight.active == true)
+            {
+                knight.GetComponent<Player>().puntuacion++;
+
+            }
+           
         }
 
     }

@@ -21,7 +21,7 @@ public class GManager : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1;
-        player = FindObjectOfType<Player>();
+        
         deathPanel.SetActive(false);
         animator.enabled = true;
         mageanim.enabled = true;    
@@ -30,11 +30,13 @@ public class GManager : MonoBehaviour
         {
             knight.SetActive(true);
             mage.SetActive(false);
+            player = knight.GetComponent<Player>();
 
         } else if (PassData.getCharacter() == 1)
         {
             knight.SetActive(false);
             mage.SetActive(true);
+            player = mage.GetComponent<Player>();
         }
 
       
@@ -71,13 +73,13 @@ public class GManager : MonoBehaviour
     public void BackMenu()
     {
         PassData.DeleteTable();
-        ChangeScene(3);
+        ChangeScene(1);
     }
     public void ExitGame()
     {
         
         PassData.UpdateTable(player.lifes, player.end_posicion, player.mapa, player.puntuacion, true);
-        ChangeScene(3);
+        ChangeScene(1);
     }
 
 

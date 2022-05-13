@@ -42,7 +42,7 @@ public class CharManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Return)) {
             if (nameText.text == "espadachin") {
-                ChangeScene(1);
+                ChangeScene(6);
             }
             
 
@@ -111,7 +111,7 @@ public class CharManager : MonoBehaviour
 
     public void Back()
     {
-        ChangeScene(3);
+        ChangeScene(1);
     }
     public void ChangeScene(int sceneID)
     {

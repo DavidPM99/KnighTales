@@ -31,7 +31,7 @@ public class MenuManager : MonoBehaviour
         }
         else
         {
-            ChangeScene(2);
+            ChangeScene(4);
         }
        
     }
@@ -39,13 +39,13 @@ public class MenuManager : MonoBehaviour
     public void ResetNewGame()
     {
         PassData.DeleteTable();
-        ChangeScene(2);
+        ChangeScene(4);
 
     }
 
     public void RankList()
     {
-        ChangeScene(6);
+        ChangeScene(3);
     }
     public void UsersList() { 
         ChangeScene(5);
@@ -58,7 +58,7 @@ public class MenuManager : MonoBehaviour
             return;
         } else
         {
-            ChangeScene(1);
+            ChangeScene(7);
         }
        
     }
@@ -68,13 +68,13 @@ public class MenuManager : MonoBehaviour
     }
     public void Logout()
     {
-        ChangeScene(4);
+        ChangeScene(0);
        
     }
 
     public void userProfile()
     {
-        ChangeScene(7);
+        ChangeScene(2);
     }
 
     public void ChangeScene(int sceneID)

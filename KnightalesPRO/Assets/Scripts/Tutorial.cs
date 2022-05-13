@@ -129,7 +129,7 @@ public class Tutorial : MonoBehaviour
         {
             sp7.Stop();
             sp7.Reset();
-            ChangeScene(1);
+            ChangeScene(7);
         }
         
         if (player.GetComponent<PlayerMov>().button.active)

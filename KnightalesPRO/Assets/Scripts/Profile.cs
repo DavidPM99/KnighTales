@@ -46,7 +46,7 @@ public class Profile : MonoBehaviour
 
     public void Back()
     {
-        ChangeScene(3);
+        ChangeScene(1);
     }
     public void UpdateUser()
     {
@@ -145,7 +145,7 @@ public class Profile : MonoBehaviour
 
             if (update)
             {
-                ChangeScene(4);
+                ChangeScene(0);
             }
         } else
         {
@@ -196,7 +196,7 @@ public class Profile : MonoBehaviour
         });
         PassData.DeletePlayer(PassData.getAut().CurrentUser.UserId);
         StartCoroutine(PassData.DeletePHP());
-        ChangeScene(4);
+        ChangeScene(0);
     }
 
     public void Cancel()
